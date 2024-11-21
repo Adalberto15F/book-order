@@ -1,7 +1,7 @@
 <script>
     import Logo from "./Logo.svelte";
 </script>
-<div
+<header
     class="
         flex justify-center
         item-center
@@ -10,4 +10,4 @@
     "
 >
     <Logo />
-</div>
+</header>

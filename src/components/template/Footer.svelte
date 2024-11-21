@@ -1,4 +1,4 @@
-<div
+<footer
     class="
         flex justify-end
         items-center
@@ -16,4 +16,4 @@
     >
         Todos os direitos reservados &copy; {new Date().getFullYear()}
     </span>    
-</div>
+</footer>

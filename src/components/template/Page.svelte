@@ -1,6 +1,7 @@
 <script>
-    import Baseboard from "./Baseboard.svelte";
-import Header from "./Header.svelte";
+    import Footer from "./Footer.svelte";
+    import Header from "./Header.svelte";
+    import Aside from "./Aside.svelte";
 </script>
 <div
     class="
@@ -9,13 +10,23 @@ import Header from "./Header.svelte";
     "
 >
     <Header />
-    <main
-        class="
+    <div class="
             flex-1 
-            
-        "
-    >
-        <slot></slot>
-    </main>
-    <Baseboard />
+            flex
+            max-w-7x1
+            mx-auto
+            w-full
+            p-5
+            ">
+        <main
+            class="
+                flex-1
+                bg-red-300
+            "
+        >
+            <slot></slot>
+        </main>
+        <Aside />
+    </div>
+    <Footer />
 </div>
