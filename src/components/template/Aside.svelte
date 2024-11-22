@@ -1,5 +1,6 @@
 <script>
     import Menu from "./Menu.svelte";
+    import ItemMenu from "./ItemMenu.svelte"
 
 </script>
 <aside
@@ -16,22 +17,26 @@
     "
 > 
     <Menu titulo="Navegação">
-        <li>Teste 01</li>
-        <li>Teste 02</li>
-        <li>Teste 03</li>
-        <li>Teste 04</li>
+        <ItemMenu texto="Inicio" link="/"/>
+        <ItemMenu texto="Personagens" link="/"/>
+        <ItemMenu texto="Autores" link="/"/>
+        <ItemMenu texto="Séries" link="/"/>
+
     </Menu>
     <Menu titulo="Principais Autores">
-        <li>Teste 01</li>
-        <li>Teste 02</li>
-        <li>Teste 03</li>
-        <li>Teste 04</li>
+        <ItemMenu texto="J.K. Rowling" link="/"/>
+        <ItemMenu texto="J.R.R. Tolkien" link="/"/>
+        <ItemMenu texto="George R.R. Martin" link="/"/>
+
     </Menu>
     <Menu titulo="Outras Categorias">
-        <li>Teste 01</li>
-        <li>Teste 02</li>
-        <li>Teste 03</li>
-        <li>Teste 04</li>
+        <ItemMenu texto="Últimas Notícias" link="/"/>
+        <ItemMenu texto="Séries Populares" link="/"/>
+        <ItemMenu texto="Facebook" link="/"/>
+        <ItemMenu texto="Instagram" link="/"/>
+        <ItemMenu texto="Youtube" link="/"/>
+
+
     </Menu>
 
 </aside>
