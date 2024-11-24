@@ -7,22 +7,12 @@
     class="
         flex flex-col min-h-screen
         bg-black text-white
-    "
+"
 >
     <Header />
-    <div class="
-            flex-1 
-            flex
-            max-w-7x1
-            mx-auto
-            w-full
-            p-5
-            ">
+    <div class="flex-1 flex max-w-7xl mx-auto w-full p-5">
         <main
-            class="
-                flex-1
-                bg-red-300
-            "
+            class="flex-1"
         >
             <slot></slot>
         </main>

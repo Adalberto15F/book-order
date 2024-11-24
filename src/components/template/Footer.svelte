@@ -1,18 +1,8 @@
 <footer
-    class="
-        flex justify-end
-        items-center
-        px-20
-        h-16
-        border-t
-        bg-zinc-800
-    "
+    class="flex justify-end items-center px-20 h-16 border-t border-zinc-800"
 >
     <span
-        class="
-            font-thin
-            text-zinc-500
-        "
+        class="font-thin text-zinc-400"
     >
         Todos os direitos reservados &copy; {new Date().getFullYear()}
     </span>    

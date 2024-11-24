@@ -4,7 +4,7 @@
 <header
     class="
         flex justify-center
-        item-center
+        items-center
         h-24
         border-b border-zinc-800
     "

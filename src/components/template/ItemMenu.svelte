@@ -1,5 +1,5 @@
 <script>
-    export let link = "";
+    export let link = "/";
     export let texto = "";
 </script>
 
