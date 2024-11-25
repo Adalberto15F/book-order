@@ -10,14 +10,14 @@
     <Menu titulo="Navegação">
         <ItemMenu texto="Inicio" link="/"/>
         <ItemMenu texto="Personagens" link="/"/>
-        <ItemMenu texto="Autores" link="/"/>
+        <ItemMenu texto="Autores" link="/authors"/>
         <ItemMenu texto="Séries" link="/"/>
 
     </Menu>
     <Menu titulo="Principais Autores">
-        <ItemMenu texto="J.K. Rowling" link="/"/>
-        <ItemMenu texto="J.R.R. Tolkien" link="/"/>
-        <ItemMenu texto="George R.R. Martin" link="/"/>
+        <ItemMenu texto="J.K. Rowling" link="/authors/j-k-rowling"/>
+        <ItemMenu texto="J.R.R. Tolkien" link="/authors/j-r-r-tolkien"/>
+        <ItemMenu texto="George R.R. Martin" link="/authors/george-r-r-martin"/>
 
     </Menu>
     <Menu titulo="Outras Categorias">
