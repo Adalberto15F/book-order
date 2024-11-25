@@ -1,6 +1,6 @@
 <script>
+    import {page} from "$app/stores"
     import AuthorContent from "../../../components/author/AuthorContent.svelte";
-    import autores from "../../../constants/authors";
-
 </script>
-<AuthorContent autor={autores[1]}/>
+
+<AuthorContent autor={$page.data.autor}/>
